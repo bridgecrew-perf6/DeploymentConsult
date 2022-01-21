@@ -5,7 +5,7 @@ kind: Secret
 metadata:
   name: regcred
 data:
-  .dockerconfigjson: DeploymentConsult/DeploymentConsult.WebHost/Dockerfile
+  .dockerconfigjson: DOCKER_CONFIG
 type: kubernetes.io/dockerconfigjson
 ---
 # This section will create a deployment in the Kubernetes cluster
